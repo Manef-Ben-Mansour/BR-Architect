@@ -1,5 +1,20 @@
+
+.navcontainer{display: inline-block;
+    position: fixed;
+    width: calc(100% - 30px);
+    margin-right:15px ;
+    padding-right: 30px; 
+    padding-bottom: 5px ;
+    padding-top: 5px;
+     z-index: 1;
+     background-color: white;
+    
+}
 .navbar{
     display: inline-block;
+    text-decoration: none;
+    display: flex;
+    color: black;
     float: right;
     width:auto ;
     font-size: 15px;
@@ -8,6 +23,7 @@
     margin-top: 10px;
     margin-right:15px ;
     margin-bottom:  18px;
+    
   
    
 }
@@ -95,6 +111,7 @@
 }
 .formulaire{display: block;
     height: 30px;
+    width: 90%;
     padding-top: 5px;
     padding-left: 8px;
     font-family:'verdana' ;
@@ -114,4 +131,7 @@
     height: 25px;
     padding-top: 10px;
     text-align: center;
+    border-radius: 5%;
+    cursor: pointer;
 }
+
